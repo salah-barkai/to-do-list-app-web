@@ -1,0 +1,79 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+
+body{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+#root{
+ margin: 20px;
+ top: 90px;
+ border: 1px solid orangered;
+ align-items: center;
+ justify-content: center;
+ width: 350px;
+ height: 450px;
+ padding: 5px;
+ margin-left: 30%;
+ border-radius: 10px;
+ box-shadow: 0 0 5px, inset 0 0 5px orangered;
+}
+
+#root h1{
+    text-align: center;
+    color: orangered;
+    font-size: 25px;
+    margin: 25px;
+}
+
+#root #typein{
+    padding: 5px;
+    width: 220px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid orangered;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#root #to_do{
+    margin: 20px;
+    border: 1px solid white;
+    width: 300px;
+    padding: 5px;
+    border-radius: 10px;
+    max-height: 300px; /* Définissez la hauteur maximale souhaitée */
+    overflow: auto;  
+}
+
+#root #to_do p {
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    background-color: white;
+    color: orangered;
+    cursor: pointer;
+}
+
+#root #to_do p:hover{
+    background-color: orangered;
+    border: 1px solid white;
+    color: black;
+}
+
+
+#root #to_do button{
+    margin: 5px;
+    margin-left: 250px;
+    background-color: black;
+    display: none;
+    cursor: pointer;
+    color: white;
+    margin-top: -15px;
+}
